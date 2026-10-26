@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and generated files
+data/
+datasets/
+input/
+*.zip
+*.tar
+*.gz
+*.7z
+*.h5
+*.hdf5
+*.keras
+*.weights
+*.ckpt
+checkpoints/
+
+# Logs, caches, and OS files
+*.log
+.cache/
+.DS_Store
+Thumbs.db
+
+# Environment secrets
+.env
+.env.*
+!.env.example

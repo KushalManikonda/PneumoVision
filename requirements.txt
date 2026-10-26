@@ -1,0 +1,11 @@
+# Dependencies used by the PneumoVision notebook.
+# These are package names, not a fully pinned lockfile; validate versions in your runtime.
+tensorflow
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+opencv-python
+Pillow
+scikit-learn
