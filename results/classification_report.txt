@@ -1,0 +1,19 @@
+PneumoVision — Classification Report
+Source: executed Kaggle notebook output
+Evaluation split: 522 images
+
+              precision    recall  f1-score   support
+
+      NORMAL       0.94      0.92      0.93       133
+   PNEUMONIA       0.97      0.98      0.98       389
+
+    accuracy                           0.97       522
+   macro avg       0.96      0.95      0.95       522
+weighted avg       0.97      0.97      0.97       522
+
+Confusion matrix (rows = actual, columns = predicted):
+                 Predicted NORMAL   Predicted PNEUMONIA
+Actual NORMAL              123                   10
+Actual PNEUMONIA             8                  381
+
+Note: These results are from the split used in the current notebook. Review the dataset split methodology before making claims about independent test-set performance.
